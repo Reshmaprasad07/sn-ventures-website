@@ -1,53 +1,355 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SN VENTURES | Repair Services</title>
+
+    <title>SN VENTURES | Computer & Mobile Repair</title>
+
+    <meta name="description"
+          content="SN VENTURES provides computer, laptop and mobile phone repair services in Kerala. Contact us for repair enquiries.">
+
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <header>
-        <h1>SN VENTURES Computer & Mobile Repair</h1>
-        <p>Computer, laptop and mobile phone repair services.</p>
-        <p>Reliable repair services in Kerala.</p>
 
-        <div class="contact-buttons">
-            <a href="tel:9400430706" class="contact-button">
+<body>
+
+    <!-- Navigation bar -->
+    <header class="site-header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">
+                SN <span>VENTURES</span>
+            </a>
+
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#services">Services</a>
+                <a href="#about">About Us</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <a href="tel:9400430706" class="nav-button">
                 Call Us
             </a>
-
-            <a href="https://wa.me/919400430706"
-               class="contact-button whatsapp-button"
-               target="_blank"
-               rel="noopener noreferrer">
-                WhatsApp Us
-            </a>
-        </div>
+        </nav>
     </header>
 
     <main>
-        <section id="services">
-            <h2>Our Services</h2>
-            <p>Reliable repair services in Kerala.</p>
 
-            <div class="service-container">
-                <article class="service-card">
-                    <h3>Computer Repair</h3>
-                    <p>Computer hardware troubleshooting and repair.</p>
-                </article>
+        <!-- Hero section -->
+        <section id="home" class="hero">
+            <div class="container hero-content">
 
-                <article class="service-card">
-                    <h3>Laptop Repair</h3>
-                    <p>Laptop diagnostics and hardware servicing.</p>
-                </article>
+                <div class="hero-text">
+                    <span class="eyebrow">
+                        YOUR REPAIR SERVICE PARTNER
+                    </span>
 
-                <article class="service-card">
-                    <h3>Mobile Phone Repair</h3>
-                    <p>Mobile phone troubleshooting and repair.</p>
-                </article>
+                    <h1>
+                        Technology Problems?
+                        <span>We've Got You Covered.</span>
+                    </h1>
+
+                    <p>
+                        From computers and laptops to mobile phones,
+                        SN VENTURES is here to help with your repair needs.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#services" class="button button-primary">
+                            Explore Our Services
+                        </a>
+
+                        <a href="https://wa.me/919400430706"
+                           class="button button-outline"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            Chat on WhatsApp
+                        </a>
+                    </div>
+
+                    <p class="hero-note">
+                        Computer · Laptop · Mobile Phone
+                    </p>
+                </div>
+
+                <div class="hero-visual" aria-hidden="true">
+                    <div class="device device-computer">
+                        <div class="screen">
+                            <span>SN</span>
+                            <small>VENTURES</small>
+                        </div>
+                        <div class="monitor-stand"></div>
+                        <div class="monitor-base"></div>
+                    </div>
+
+                    <div class="device device-phone">
+                        <div class="phone-screen">
+                            <span>SN</span>
+                        </div>
+                    </div>
+
+                    <div class="floating-label">
+                        <span class="status-dot"></span>
+                        Repair Support
+                    </div>
+                </div>
+
             </div>
         </section>
+
+        <!-- Services section -->
+        <section id="services" class="section services-section">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="eyebrow">WHAT WE DO</span>
+                    <h2>Our Repair Services</h2>
+                    <p>
+                        Help for your everyday technology needs,
+                        all in one place.
+                    </p>
+                </div>
+
+                <div class="service-container">
+
+                    <article class="service-card">
+                        <div class="service-icon" aria-hidden="true">
+                            <svg viewBox="0 0 48 48" fill="none">
+                                <rect x="7" y="6" width="34"
+                                      height="25" rx="3"
+                                      stroke="currentColor"
+                                      stroke-width="2.5"/>
+                                <path d="M18 41h12M24 31v10M4 36h40"
+                                      stroke="currentColor"
+                                      stroke-width="2.5"
+                                      stroke-linecap="round"/>
+                            </svg>
+                        </div>
+
+                        <h3>Computer Repair</h3>
+
+                        <p>
+                            Computer hardware troubleshooting,
+                            diagnostics and repair assistance.
+                        </p>
+
+                        <a href="#contact" class="service-link">
+                            Enquire now <span>→</span>
+                        </a>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-icon" aria-hidden="true">
+                            <svg viewBox="0 0 48 48" fill="none">
+                                <rect x="11" y="5" width="26"
+                                      height="30" rx="3"
+                                      stroke="currentColor"
+                                      stroke-width="2.5"/>
+                                <path d="M5 40h38l-4-5H9l-4 5Z"
+                                      stroke="currentColor"
+                                      stroke-width="2.5"
+                                      stroke-linejoin="round"/>
+                                <path d="M21 30h6"
+                                      stroke="currentColor"
+                                      stroke-width="2.5"
+                                      stroke-linecap="round"/>
+                            </svg>
+                        </div>
+
+                        <h3>Laptop Repair</h3>
+
+                        <p>
+                            Laptop diagnostics, hardware servicing
+                            and troubleshooting support.
+                        </p>
+
+                        <a href="#contact" class="service-link">
+                            Enquire now <span>→</span>
+                        </a>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-icon" aria-hidden="true">
+                            <svg viewBox="0 0 48 48" fill="none">
+                                <rect x="13" y="3" width="22"
+                                      height="42" rx="4"
+                                      stroke="currentColor"
+                                      stroke-width="2.5"/>
+                                <path d="M21 9h6M21 39h6"
+                                      stroke="currentColor"
+                                      stroke-width="2.5"
+                                      stroke-linecap="round"/>
+                            </svg>
+                        </div>
+
+                        <h3>Mobile Phone Repair</h3>
+
+                        <p>
+                            Mobile phone troubleshooting and
+                            repair enquiries for your device.
+                        </p>
+
+                        <a href="#contact" class="service-link">
+                            Enquire now <span>→</span>
+                        </a>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- About section -->
+        <section id="about" class="section about-section">
+            <div class="container about-content">
+
+                <div class="about-mark" aria-hidden="true">
+                    <span>SN</span>
+                    <strong>VENTURES</strong>
+                    <div class="about-line"></div>
+                    <small>COMPUTER & MOBILE REPAIR</small>
+                </div>
+
+                <div class="about-text">
+                    <span class="eyebrow">ABOUT SN VENTURES</span>
+
+                    <h2>Helping You Stay Connected</h2>
+
+                    <p>
+                        At SN VENTURES, we focus on helping customers
+                        with their computer, laptop and mobile phone
+                        repair needs.
+                    </p>
+
+                    <p>
+                        We aim to make it easy for you to reach us,
+                        explain your device issue and enquire about
+                        the support you need.
+                    </p>
+
+                    <a href="#contact" class="button button-primary">
+                        Get in Touch
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Why choose us section -->
+        <section class="section benefits-section">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="eyebrow">WHY CONTACT US</span>
+                    <h2>Support Made Simple</h2>
+                </div>
+
+                <div class="benefits-grid">
+
+                    <div class="benefit">
+                        <span class="benefit-number">01</span>
+                        <h3>Multiple Devices</h3>
+                        <p>
+                            One place to enquire about computer,
+                            laptop and mobile phone repairs.
+                        </p>
+                    </div>
+
+                    <div class="benefit">
+                        <span class="benefit-number">02</span>
+                        <h3>Easy Communication</h3>
+                        <p>
+                            Contact us by phone or WhatsApp
+                            to discuss your repair requirements.
+                        </p>
+                    </div>
+
+                    <div class="benefit">
+                        <span class="benefit-number">03</span>
+                        <h3>Customer Focus</h3>
+                        <p>
+                            Tell us about your device issue
+                            and get guidance on the next steps.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact section -->
+        <section id="contact" class="contact-section">
+            <div class="container contact-content">
+
+                <div class="contact-text">
+                    <span class="eyebrow">LET'S CONNECT</span>
+
+                    <h2>Need Help With Your Device?</h2>
+
+                    <p>
+                        Contact SN VENTURES to enquire about
+                        computer, laptop or mobile phone repairs.
+                    </p>
+                </div>
+
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <span class="contact-label">PHONE</span>
+                        <a href="tel:9400430706">
+                            +91 94004 30706
+                        </a>
+                    </div>
+                    <div class="contact-item">
+                            <span class="contact-label">EMAIL</span>
+                            <a href="mailto:postbox261214@gmail.com">
+                                postbox261214@gmail.com
+                            </a>
+                        </div>
+
+                    <div class="contact-item">
+                        <span class="contact-label">LOCATION</span>
+                        <p>Kerala, India</p>
+                    </div>
+
+                    <div class="contact-actions">
+                        <a href="tel:9400430706"
+                           class="button button-light">
+                            Call Now
+                        </a>
+
+                        <a href="https://wa.me/919400430706"
+                           class="button button-whatsapp"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            WhatsApp Us
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
     </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <a href="#home" class="footer-logo">
+                SN VENTURES
+            </a>
+
+            <p>
+                Computer, laptop and mobile phone repair services.
+            </p>
+
+            <p class="copyright">
+                © 2026 SN VENTURES. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
 </body>
 </html>
