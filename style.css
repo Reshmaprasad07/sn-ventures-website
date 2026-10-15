@@ -50,3 +50,39 @@ p{
         padding: 16px
     }
 }
+
+/* Header and contact buttons */
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.contact-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.contact-button {
+    display: inline-block;
+    background-color: #155eef;
+    color: #ffffff;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.contact-button:hover {
+    background-color: #0b3d91;
+}
+
+.whatsapp-button {
+    background-color: #16803c;
+}
+
+.whatsapp-button:hover {
+    background-color: #11632e;
+}
